@@ -73,6 +73,39 @@
             color: black;
         }
 
+
+        /* ========================= */
+        /*        MOBILE              */
+        /* ========================= */
+
+        @media (max-width: 768px) {
+
+            h1 {
+                font-size: 25vw;
+                top: -30px;
+            }
+
+            .buttons-container {
+                top: -30px;
+
+                width: 90%;
+                margin: auto;
+
+                flex-direction: column;
+                align-items: center;
+
+                gap: 20px;
+            }
+
+            .buttons-container button {
+                width: 90%;
+
+                font-size: 35px;
+
+                padding: 15px 10px;
+            }
+        }
+
     </style>
 </head>
 
@@ -94,12 +127,14 @@
             Discord
         </button>
 
-        <button onclick="window.open('https://steamcommunity.com/profiles/76561199509028091/', '_blank')">
-            My Steam
+        <button onclick="window.open('https://discord.gg/kj6hGfaFmH', '_blank')">
+            Discord
         </button>
 
     </div>
 
 </body>
+
+</html>
 
 </html>
